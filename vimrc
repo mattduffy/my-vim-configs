@@ -1,8 +1,8 @@
-au BufNewFile,BufRead *.yaml,*.yml so ~/.vim/yaml.vim
-au BufNewFile,BufRead *.raml,*.rml so ~/.vim/yaml.vim
-au BufNewFile,BufRead *.jade,*.jde so ~/.vim/yaml.vim
-au BufNewFile,BufRead *.js,*.json so ~/.vim/javascript.vim
-au BufNewFile,BufRead *.md,*.markdown so ~/.vim/markdown.vim
+au BufNewFile,BufRead *.yaml,*.yml so ~/.vim/syntax/yaml.vim
+au BufNewFile,BufRead *.raml,*.rml so ~/.vim/syntax/yaml.vim
+au BufNewFile,BufRead *.jade,*.jde so ~/.vim/syntax.yaml.vim
+au BufNewFile,BufRead *.js,*.json so ~/.vim/syntax/javascript.vim
+au BufNewFile,BufRead *.md,*.markdown so ~/.vim/syntax/markdown.vim
 
 au FileType javascript set shiftwidth=2
 au FileType javascript set tabstop=2
