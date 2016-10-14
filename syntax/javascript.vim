@@ -244,5 +244,4 @@ if main_syntax == 'javascript'
   unlet main_syntax
 endif
 
-vim: ts=2
-vim: sw=2
+" vim: ts=2
